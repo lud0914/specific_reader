@@ -73,7 +73,7 @@
             }
 
             if (!isDataSent && currentRatio > cfg.thresholdDepth) {
-                sendEvent('reach_threshold');
+                sendEvent('specific_reader');
             }
 
             setTimeout(checkScroll, 500);
