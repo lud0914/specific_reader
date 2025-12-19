@@ -14,7 +14,7 @@
 window.ReaderTrackerConfig = {
     thresholdDepth: 0.8,  // 스크롤 깊이 (기본: 0.8)
     speedStandard: 300,   // 속도 기준 px/s (기본: 300)
-    debug: true           // 디버그 모드 (기본: false)
+    debug: false           // 디버그 모드 (기본: false)
 };
 </script>
 
